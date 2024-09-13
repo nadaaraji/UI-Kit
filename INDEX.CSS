@@ -1,0 +1,114 @@
+body {
+    overflow-x: hidden;
+    padding: 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50PX;
+    position: sticky;
+    top: 0;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #505F98;
+
+}
+
+nav>button {
+    background-color: #111B47;
+    width: 160PX;
+    height: 26PX;
+    border-radius: 2PX;
+    border: NONE;
+    color: white;
+
+}
+
+#herosection_one {
+    width: 50%;
+}
+
+#heroimage {
+    position: absolute;
+    top: 40px;
+    right: -450px;
+    z-index: -1;
+
+}
+
+#heroSection {
+    height: 900px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#herosection_one h1 {
+    font-size: 50px;
+    color: #091133;
+
+}
+
+#heroSection_one p {
+    color: #505F98;
+    font-size: 18px;
+
+
+}
+
+#buttonsection {
+    display: flex;
+    gap: 30px;
+}
+
+#landing-section-tow {
+    display: flex;
+    height: 740px;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+
+
+
+}
+
+#iconBoxes {
+    display: flex;
+    margin-top: 80px;
+
+
+}
+
+#section-tow-header>h1 {
+    color: var(--secondry-color);
+    font-size: 36px;
+}
+
+#section-tow-header p {
+    color: var(--tertiary-color)
+}
+
+.landing-section-three{
+    display: flex;
+    height: 569px;
+    align-items: center;
+    gap: 125px;
+    
+}
+
+.landing-section-three p{
+    color: var(--tertiary-color)
+
+}
+.landing-section-three h3{
+    font-size: 36px;
+}
